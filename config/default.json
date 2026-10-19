@@ -1,0 +1,12 @@
+{
+  "service_name": "rag-mcp",
+  "version": "1.0.0",
+  "environment": "development",
+  "litellm_enabled": true,
+  "litellm_model": "claude-sonnet-5",
+  "litellm_timeout": 30,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "default_top_k": 3,
+  "min_similarity_threshold": 0.3,
+  "log_level": "INFO"
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rag-mcp": {
+      "command": "python",
+      "args": ["-m", "src.main"],
+      "cwd": "/absolute/path/to/rag-mcp-lab",
+      "env": {
+        "RAG_KB_PATH": "data/knowledge_base.json",
+        "LITELLM_KEY": "set-me-to-enable-rag-generate"
+      }
+    }
+  }
+}
